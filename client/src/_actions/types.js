@@ -1,0 +1,6 @@
+export const LOGIN_USER = 'login_user'
+export const SUCCESS_CODE = '0000'
+export const AUTH_USER = 'auth_user'
+export const LOGOUT_USER = 'logout_user'
+export const FAIL_CODE = '9999'
+export const AUTO_LOGIN = 'auto_login'
