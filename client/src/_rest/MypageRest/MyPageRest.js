@@ -16,7 +16,6 @@ const passwordCertCheck = async (body, token) => {
 }
 
 const passwordChenge = async (body, token) => {
-    console.log(body)
     const request = (await axios.patch('/v1/partner/members/password', body, {
         headers : {
             'Authorization' : token
