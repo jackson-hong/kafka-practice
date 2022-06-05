@@ -1,13 +1,13 @@
 import './App.css';
 import { Route, Switch } from "react-router-dom";
-import LoginPage from "./components/views/LoginPage/LoginPage";
 import Auth from "./hoc/auth";
+import LandingPage from "./components/views/LandingPage/LandingPage";
 
 function App() {
   return (
     <div>
         <Switch>
-          <Route exact path="/" component={Auth(LoginPage, false)} />
+          <Route exact path="/" component={Auth(LandingPage, false)} />
         </Switch>
     </div>
   );
