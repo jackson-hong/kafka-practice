@@ -21,7 +21,7 @@ const LandingPage = () => {
         <Footer></Footer>
         <ModifyModal
             modalActive={false}
-            ></ModifyModal>
+        ></ModifyModal>
 
     </CommonTemplate>)
 
