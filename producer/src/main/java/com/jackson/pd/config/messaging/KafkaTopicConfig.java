@@ -1,4 +1,4 @@
-package com.jackson.pd.config;
+package com.jackson.pd.config.messaging;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
